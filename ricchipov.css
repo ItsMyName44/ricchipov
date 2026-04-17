@@ -1,0 +1,74 @@
+*{margin: 0; padding: 0;
+margin: 0 auto;
+overflow: hidden;
+}
+.track-name:hover{color: black; font-family: "CantoraOne";}
+@font-face { font-family: "OldKingC"; src: url("styles/OldKingC.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "Lena"; src: url("styles/Lena.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "CantoraOne"; src: url("styles/CantoraOne.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+.fontnew{font-family: "CantoraOne"; color: gold;}
+p{margin-top: 1rem;
+font-family: "OldKingC";
+color: rgb(207, 255, 135);
+font-size: 1.4rem;
+text-indent: 1rem; 
+text-align: center;
+}
+.psml{margin: 1rem;
+font-family: "Lena";
+font-size: 1.15rem;
+}
+.perevod{color: rgb(249, 185, 185);}
+div{color: goldenrod;}
+#particles-js{width: 100%; 
+height:100vh;
+z-index: -2;
+background-color: rgb(95, 4, 123);
+position: absolute;
+}
+.btn{margin: 6px;
+font-family: "CantoraOne";
+font-size: 1rem;
+}
+.btn:hover{color: greenyellow;}
+.smlbtn{font-size: .8rem; margin: 0rem;}
+.stopmus{
+color: black;
+animation: 8s in-out-tv infinite;
+}
+@keyframes in-out-tv {
+    0% { color: #000; }
+    25% { color: green; }
+    50% { color: white; }
+    75% { color: red; }
+    100% { color: #000;  }
+}
+.stopmust{
+color: white;
+animation: 8s in-out-tvt infinite;
+}
+@keyframes in-out-tvt {
+    0% { color: white }
+    25% { color: red; }
+    50% { color: black }
+    75% { color: green }
+    100% { color: white  }
+}
+#blkmus1{display: none;}
+#blkmus2{display: none;}
+img {
+border: 1px solid #ddd;
+border-radius: 4px;
+padding: 5px;
+width: 95px;
+}
+img:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
+
+*{
+-webkit-user-select: none;
+-khtml-user-select: none;
+-moz-user-select: none;
+-ms-user-select: none;
+user-select: none;
+}
+
