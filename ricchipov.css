@@ -64,6 +64,37 @@ width: 95px;
 }
 img:hover { box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);}
 
+.mig1{
+color: white;
+animation: 18s in-out-tvt1 infinite;
+}
+@keyframes in-out-tvt1 {
+    0% { color: black }
+    33% { color: white }
+    66% { color: white }
+    100% { color: black  }
+}
+.mig2{
+color: white;
+animation: 18s in-out-tvt2 infinite;
+}
+@keyframes in-out-tvt2 {
+    0% { color: white }
+    33% { color: black }
+    66% { color: white }
+    100% { color: white  }
+}
+.mig3{
+color: white;
+animation: 18s in-out-tvt3 infinite;
+}
+@keyframes in-out-tvt3 {
+    0% { color: white }
+    33% { color: white }
+    66% { color: black }
+    100% { color: white  }
+}
+
 *{
 -webkit-user-select: none;
 -khtml-user-select: none;
